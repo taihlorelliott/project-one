@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Kablammo&display=swap');
+
+body {
+    background-color: hotpink;
+}
+
+
+h1 {
+    font-family: kablammo, system-ui;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Delius Swash Caps, cursive;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+#cookie-img {
+    width: 200px;
+}
+
+#cookie-jar-img {
+    width: 200px;
+    background-color: pink;
+    border-radius: 35px;
+    border: 1px solid green;
+}
+
+#display {
+    color: white; 
+    text-align: center; 
+}
+
+button {
+    background-color: hotpink;
+    border-radius: 35px;
+    border: 1px solid pink;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: pink;
+}
+
+#items {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 50px;
+}
