@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Kablammo&display=swap');
 
-body {
+html, body {
     background-color: hotpink;
+    cursor: url("https://i.postimg.cc/N0GMCKzx/IMG-5506.png"), pointer;
 }
-
 
 h1 {
     font-family: kablammo, system-ui;
@@ -20,7 +20,6 @@ h2 {
 }
 
 
-
 #cookie-img {
     width: 200px;
 }
@@ -29,12 +28,16 @@ h2 {
     width: 200px;
     background-color: pink;
     border-radius: 35px;
-    border: 1px solid green;
+    float: left;
 }
 
 #display {
-    color: white; 
-    text-align: center; 
+    color: red;  
+    font-family: Delius Swash Caps, cursive;
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    padding: 12px;
 }
 
 button {
@@ -44,8 +47,8 @@ button {
     
 }
 button:hover{
-    cursor: pointer;
     background-color: pink;
+    cursor: url("https://i.postimg.cc/C55xh9gn/IMG-5503.png"), pointer;
 }
 
 #items {
@@ -54,4 +57,16 @@ button:hover{
     align-items: baseline;
     flex-wrap: wrap;
     gap: 50px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: kablammo, system-ui;
+}
+
+winnerText {
+    display: flex;
+    justify-content: center;
 }
