@@ -19,6 +19,13 @@ h2 {
     align-items: flex-start;
 }
 
+#items {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 50px;
+}
 
 #cookie-img {
     width: 200px;
@@ -40,23 +47,42 @@ h2 {
     padding: 12px;
 }
 
+#hiddenItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#resetBTN {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#resetButton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 75px
+    
+}
+
+#resetimg {
+    width: 200px;
+    height: 100px;
+}
+
 button {
     background-color: hotpink;
     border-radius: 35px;
     border: 1px solid pink;
-    
+
 }
 button:hover{
     background-color: pink;
     cursor: url("https://i.postimg.cc/C55xh9gn/IMG-5503.png"), pointer;
-}
-
-#items {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 50px;
 }
 
 p {
@@ -66,7 +92,3 @@ p {
     font-family: kablammo, system-ui;
 }
 
-winnerText {
-    display: flex;
-    justify-content: center;
-}
