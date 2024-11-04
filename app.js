@@ -1,21 +1,22 @@
-// constants
+// constants defined from the html
 const cookieButton = document.getElementById(`cookie`)
 const winnerText = document.getElementById(`winner`)
 const resetButton = document.getElementById(`resetButton`)
 
-// hidden upon load items
+// hidden items
 winnerText.style.display = "none"
 resetButton.style.display = "none"
 
-// variable
+// variables, define count started point and random number generator
 let count = 0
 let random = Math.floor(Math.random() * 50) + 1;
-// syntax from stack overflow
+// syntax learned from stack overflow
 
 // test 
 // console.log(random)
 
-// functions
+// functions, when the button is clicked and certain number from random generator
+// is hit then display hidden items 
 const clickCounter = () => {
     count++;
     document.getElementById(`display`).innerText = `${count}`
@@ -29,7 +30,6 @@ if (random === count) {
 }
 }
 
-// event listeners
-
+// event listener, tell the clickCounter to be looking for the click
 cookieButton.addEventListener(`click`, clickCounter)
 

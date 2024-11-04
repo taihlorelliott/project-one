@@ -16,7 +16,6 @@ h2 {
     font-family: Delius Swash Caps, cursive;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
 }
 
 #items {
@@ -36,6 +35,17 @@ h2 {
     background-color: pink;
     border-radius: 35px;
     float: left;
+}
+
+button {
+    background-color: hotpink;
+    border-radius: 35px;
+    border: 1px solid pink;
+
+}
+button:hover{
+    background-color: pink;
+    cursor: url("https://i.postimg.cc/C55xh9gn/IMG-5503.png"), pointer;
 }
 
 #display {
@@ -66,23 +76,11 @@ h2 {
     text-align: center;
     align-items: center;
     height: 75px
-    
 }
 
 #resetimg {
     width: 200px;
     height: 100px;
-}
-
-button {
-    background-color: hotpink;
-    border-radius: 35px;
-    border: 1px solid pink;
-
-}
-button:hover{
-    background-color: pink;
-    cursor: url("https://i.postimg.cc/C55xh9gn/IMG-5503.png"), pointer;
 }
 
 p {
